@@ -3,9 +3,12 @@
 {% endcomment %}
 <div class="jumbotron">
   <div class="row">
+    <div class="col-md-12">
+      <img src="../assets/img/otnLogo.png" />
+    </div>
     <div class="col-md-10 col-md-offset-1">
       {% unless site.title == "Workshop Title" or site.title == "" %}
-      <h2>{{site.title}}</h1>
+      <h2>{{site.title}}</h2>
       {% endunless %}
       <h2>{{page.venue}}</h2>
       <div class="row">
